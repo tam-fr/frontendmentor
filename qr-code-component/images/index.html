@@ -30,11 +30,27 @@
         width: 85%;
         height: 85%;
       }
-
-      body {
+      .main {
         background-color: hsl(212, 45%, 89%);
-        font-family: "Outfit", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        border-radius: 1rem;
       }
+      body {
+        margin: 0;
+        background-color: hsl(218, 44%, 22%);
+        font-family: "Outfit", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        min-height: 100vh;
+        text-align: center;
+      }
+
       p {
         font-size: 15px;
       }
@@ -43,11 +59,11 @@
       }
       .container {
         background-color: hsl(0, 0%, 100%);
-        width: 300px;
-        margin: 5rem auto;
+        margin: 0;
         padding: 1.5rem;
         border-radius: 1rem;
-        text-align: center;
+
+        justify-content: center;
       }
       .text {
         color: hsl(220, 15%, 55%);
@@ -55,23 +71,25 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <img src="image-qr-code.png" alt="QR code" />
-      <h2>Improve your front-end skills by building projects</h2>
-      <p class="text">
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
+    <div class="main">
+      <div class="container">
+        <img src="image-qr-code.png" alt="QR code" />
+        <h2>Improve your front-end skills by building projects</h2>
+        <p class="text">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+      <footer class="attribution">
+        <p>
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3cfe/start"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.frontendmentor.io/profile/tam-fr">Tam</a>.
+        </p>
+      </footer>
     </div>
-    <footer class="attribution">
-      <p>
-        Challenge by
-        <a
-          href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/challenge/65e6f48617e502f0b6ca3cfe/start"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://www.frontendmentor.io/profile/tam-fr">Tam</a>.
-      </p>
-    </footer>
   </body>
 </html>
