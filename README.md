@@ -11,8 +11,8 @@ A screenshot of my solution.
 
 ### Links
 
-- Solution URL: [Here my solution URL on GitHub](https://github.com/tam-fr/frontendmentor/blob/main/qr-code-component/images/index.html)
-- Live Site URL: [screenshot of my solution](https://github.com/tam-fr/frontendmentor/blob/main/qr-code-component/images/screenshot.png)
+- Solution URL: [Here my solution URL on GitHub](https://github.com/tam-fr/frontendmentor/blob/main/index.html)
+- Live Site URL: [screenshot of my solution](https://tam-fr.github.io/frontendmentor/)
 
 ## My process
 
